@@ -5,12 +5,15 @@
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-5N0PNTY9L7"></script>
   <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'G-5N0PNTY9L7');
-</script>
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-5N0PNTY9L7');
+  </script>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -18,8 +21,14 @@
   <script src="https://kit.fontawesome.com/4f02d055e5.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@200;300;400;500;600;700&family=Roboto&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@200;300;400;500;600;700&family=Roboto&display=swap"
     rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Rubik:wght@500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
   <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet" />
@@ -32,13 +41,13 @@
 
   <link rel="stylesheet" href="style.css" />
 
- 
+
   <title>Tufoins Capstone1</title>
 </head>
 
 <body class="body">
   <div class="sidebar">
-    <div class="burger" onclick ="show()">
+    <div class="burger" onclick="show()">
       <a href="/"><i class="fas fa-bars hamburger-icon "></i></a>
     </div>
     <ul class="dsk-nav">
@@ -50,17 +59,60 @@
     </ul>
   </div>
 
-  <div class= "introduction">
-    <div class= "heading">
-      <h4>"Hello, Sports lovers"</h4>
-      
-      <h1>TotalEnergies AFCON Cameroon 2021</h1>
+  <div class="introduction">
+    <div class="heading">
+      <h4 class="heading1">"Hello! Sport lovers"</h4>
+
+      <h1 class="heading2">Energy AFCON Cameroon 2021</h1>
     </div>
     <div>
-      <p>A global come together for a joyful celebration and believing in the value of oneness, openness, sharing and creating a positive change with participants from over 24 countries in Yaounde-Cameroon.</p>
+      <p class="text1">A global come together for a joyful celebration and believing in the value of oneness, openness,
+        sharing and creating a positive change with participants from over 24 countries taking place in
+        Yaounde-Cameroon.</p>
     </div>
     <div>
-      <p>2021-10-06(Wed) - 08(Fri)</p>
-      <p>@ Yaounde Conference Centre Palace ..</p>
+      <p class="text2">2021.10.06(WED) ~ 08(FRI)</p>
+      <p class="text3">@ Yaounde Conference Centre Palace ..</p>
     </div>
   </div>
+
+  <section class="main-program">
+    <h2 class="main-p">Main Program </h2>
+
+    <div class="card-box">
+      <div class="card">
+        <div class="icon"></div>
+        <p class="card-heading"></p>
+        <div class="card-description"></div>
+      </div>
+      <div class="card">
+        <div class="icon"></div>
+        <p class="card-heading"></p>
+        <div class="card-description"></div>
+      </div>
+      <div class="card">
+        <div class="icon"></div>
+        <p class="card-heading"></p>
+        <div class="card-description"></div>
+      </div>
+      <div class="card">
+        <div class="icon"></div>
+        <p class="card-heading"></p>
+        <div class="card-description"></div>
+      </div>
+      
+    </div>
+
+
+      
+    
+  </section>
+
+
+
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

@@ -6,7 +6,6 @@
 
 .body {
   display: block;
-  padding: 20px;
   width: 100%
 }
 
@@ -30,7 +29,6 @@
 
 .sidebar .burger {
   position: absolute;
-  top: 20px;
   left: 220px;
   font-size: 30px;
   font-weight: bold;
@@ -39,7 +37,8 @@
 
 
 .fas {
-  color: rgb(114, 112, 112);
+  color: #545b6a;
+  padding-top: 20px;
 }
 
 
@@ -48,13 +47,78 @@
 }
 
 .introduction {
-  
-
+  padding-top: 80px;
+  background-image: url(/images/mainpic.png);
+  height: 450px;
+  background-repeat: no-repeat;
+  padding-left: 20px;
+  padding-right: 20px;
 }
+
+.heading {
+  padding-bottom: 30px;
+}
+
+.heading1 {
+  font-size: 1.3rem;
+  font-family: 'lato', sans-serif;
+  color: #ec5242;
+}
+
+.heading2 {
+  font-size: 2.3rem;
+  font-weight: 900;
+  font-family: 'Rubik', sans-serif;
+  color: #ec5242;
+  max-width: 25rem;
+}
+
+.text1 {
+  border: 2.5px solid #fff;
+  font-size: 0.9rem;
+  padding: 7px;
+  max-width: 30rem;
+}
+
+.text2 {
+  padding-top: 20px;
+  color: #545b6a;
+  font-weight: 750;
+  font-size: 1.75rem;
+  font-family: '', sans-serif;
+}
+
+.text3 {
+  font-size: 1.rem;
+  padding-top: 7px;
+}
+
+.main-p {
+  text-align: center;
+  color: #ec5242;
+}
+
+.main-p ::after {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0.07em;
+  width: 1.5em;
+  border-radius: 0.05em;
+  margin: 0 auto;
+  margin-top: 0.6em;
+  background-color: #ec5242;
+}
+
+
 
 
 
 @media screen and (max-width: 768px) {}
 
 
-@media screen and (min-width: 768px) {}
+@media screen and (min-width: 768px) {
+  .fas {
+    display: none;
+  }
+}
