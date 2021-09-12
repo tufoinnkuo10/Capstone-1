@@ -98,7 +98,7 @@
   color: #ec5242;
 }
 
-.main-p ::after {
+.main-p::after {
   bottom: 0;
   content: "";
   display: block;
@@ -111,7 +111,30 @@
 }
 
 
+.main-program {
+  background-image: url(/images/mainpic2.png);
+  background-color: rgb(26, 25, 25);
+  color: #fff;
+}
 
+.card-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  padding-top: 30px; 
+  margin-left: 16px;
+  max-width: 95%;
+}
+
+.card {
+  display: flex;
+  background-color: rgba(245, 245, 248, 0.1);
+  align-items: center;
+  padding: 16px 0;
+}
 
 
 @media screen and (max-width: 768px) {}
