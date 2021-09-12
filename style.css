@@ -1,0 +1,60 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.body {
+  display: block;
+  padding: 20px;
+  width: 100%
+}
+
+.sidebar {
+  position: absolute;
+  width: 200px;
+  height: 100%;
+  background: #000;
+  left: -200px;
+  transition: .4s;
+}
+
+.sidebar ul li {
+  list-style: none;
+  color: rgb(226, 55, 55);
+  font-size: 20px;
+  padding: 26px 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sidebar .burger {
+  position: absolute;
+  top: 20px;
+  left: 220px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+
+
+.fas {
+  color: rgb(114, 112, 112);
+}
+
+
+.sidebar .show {
+  left: 300px;
+}
+
+.introduction {
+  
+
+}
+
+
+
+@media screen and (max-width: 768px) {}
+
+
+@media screen and (min-width: 768px) {}
