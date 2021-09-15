@@ -5,12 +5,13 @@
 }
 
 .sidebar {
-  position: absolute;
+  position: fixed;
   width: 200px;
-  height: 100%;
   background: #000;
-  left: -200px;
+  transform: translate(-200px);
   transition: .4s;
+  height: 100vh;
+  top: 0;
 }
 
 .sidebar ul li {
@@ -21,6 +22,15 @@
   font-weight: bold;
   cursor: pointer;
 }
+
+.dsk-nav .closeb {
+  padding-left: 120px;
+}
+
+.dsk-nav li a {
+  color: #dd3737;
+}
+
 
 .sidebar .burger {
   position: absolute;
@@ -35,16 +45,17 @@
   padding-top: 20px;
   left: 20px;
   font-weight: bold;
+  font-size: 40px;
 }
 
 
-.sidebar .show {
-  left: 200px;
+.sidebar.showww {
+  transform: translate(0);
 }
 
 .introduction {
-  padding-top: 80px;
-  background-image: url(./mainpic.png);
+  
+  background-image: url(./images/mainpic.png);
   height: fit-content;
   background-repeat: no-repeat;
   padding-left: 20px;

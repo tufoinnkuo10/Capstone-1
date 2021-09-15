@@ -9,13 +9,18 @@
   width: 100%
 }
 
+.closeb {
+}
+
 .sidebar {
-  position: absolute;
+  position: fixed;
   width: 200px;
-  height: 100%;
   background: #000;
-  left: -200px;
+  transform: translate(-200px);
   transition: .4s;
+  height: 100vh;
+  top: 0;
+  
 }
 
 .sidebar ul li {
@@ -27,9 +32,7 @@
   cursor: pointer;
 }
 
-.sidebar .burger {
-  position: absolute;
-  left: 220px;
+.burger {
   font-size: 30px;
   font-weight: bold;
 }
@@ -39,17 +42,27 @@
 .fas {
   color: #545b6a;
   padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 
-.sidebar .show {
-  left: 300px;
+.dsk-nav li a {
+  color: #dd3737;
+}
+
+.dsk-nav .closeb {
+  padding-left: 120px;
+  font-size: 40px;
+}
+
+
+.sidebar.showww {
+  transform: translate(0);
 }
 
 .introduction {
-  padding-top: 80px;
   background-image: url(./images/mainpic.png);
-  height: 450px;
+  height: fit-content;
   background-repeat: no-repeat;
   padding-left: 20px;
   padding-right: 20px;
@@ -91,6 +104,7 @@
 .text3 {
   font-size: 1.rem;
   padding-top: 7px;
+  padding-bottom: 30px;
 }
 
 .main-p {
@@ -117,6 +131,11 @@
   background-color: rgb(26, 25, 25);
   color: #fff;
   background-position: inherit;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
 .card-box {
@@ -178,6 +197,11 @@
   margin: 30px;
 }
 
+.attend-btn:hover {
+  background-color: #b84336;
+  text-decoration-style: wavy;
+}
+
 .f-speakers::after {
   bottom: 0;
   content: "";
@@ -216,12 +240,11 @@
   background-image: url(./images/checkimg.png);
   background-size: 40%;
   background-repeat: no-repeat;
-  position: relative;
 }
 
 .speaker-image-holder img {
-  width: 05rem;
-  height: 05rem;
+  width: 08rem;
+  height: 08rem;
   bottom: 0;
   right: 0;
   padding-left: 5px;
@@ -258,10 +281,14 @@
   border: 1px solid rgb(194, 193, 193);
   background-color: white;
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .more-button .cmore-icon {
   color: #c90808;
+  width: 3rem;
 
 }
 
@@ -505,8 +532,8 @@
 
   .card-box {
     gap: 0.4rem;
-    padding-bottom: 80px;
-    padding-left: 193px;
+    padding-bottom: 40px;
+    padding-left: 80px;
   }
 
   .card-box .card {
@@ -528,6 +555,7 @@
     align-items: center;
     color: white;
     padding-top: 15px;
+    padding-bottom: 40px;
   }
 
   .speaker-card{
