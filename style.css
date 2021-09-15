@@ -15,11 +15,12 @@
 .sidebar {
   position: fixed;
   width: 200px;
-  background: #000;
+  background: rgb(14, 12, 12);
   transform: translate(-200px);
   transition: .4s;
   height: 100vh;
   top: 0;
+  background-image: url(./images/mainpic2.png);
   
 }
 
@@ -48,6 +49,8 @@
 
 .dsk-nav li a {
   color: #dd3737;
+  font-size: 25px;
+  text-decoration: none;
 }
 
 .dsk-nav .closeb {
