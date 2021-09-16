@@ -425,7 +425,7 @@ body {
   .nav1 {
     color: #ec5242;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
   }
 
@@ -433,7 +433,6 @@ body {
   .nav3,
   .nav4 {
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     text-decoration: none;
     font-family: Lato, sans-serif;
@@ -533,7 +532,11 @@ body {
     text-align: center;
     float: left;
     width: calc(20% - 3px);
-    height: 275px;
+    height: 330px;
+  }
+
+  .main-p {
+    color: #fff;
   }
 
   .main-program .card:hover {

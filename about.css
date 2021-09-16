@@ -373,7 +373,7 @@ body {
   .nav1 {
     color: #ec5242;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 16px;
     text-decoration: none;
   }
 
@@ -381,7 +381,6 @@ body {
   .nav3,
   .nav4 {
     font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     text-decoration: none;
     font-family: Lato, sans-serif;
