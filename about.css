@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.body {
+body {
   font-family: Lato, sans-serif;
 }
 
@@ -272,7 +272,7 @@
 }
 
 .bottom-icon {
-  background-color: rgb(235, 232, 232);
+  background-color: rgb(230, 227, 227);
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -355,11 +355,9 @@
   .desktop-nav {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: center;
     height: 80px;
-    margin-left: 45px;
-    margin-right: 45px;
+    align-items: center;
   }
 
   .dsk-nav-items {
@@ -367,12 +365,27 @@
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
-    gap: 70px;
+    gap: 40px;
     cursor: pointer;
+    padding-right: 150px;
   }
 
   .nav1 {
-    color: tomato;
+    color: #ec5242;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+  }
+
+  .nav2,
+  .nav3,
+  .nav4 {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: Lato, sans-serif;
+    color: #545b6a;
   }
 
   .nav1:hover {
@@ -393,6 +406,10 @@
   .nav4:hover {
     background-color: rgb(230, 205, 205);
     cursor: pointer;
+  }
+
+  .navlogo {
+    padding-right: 225px;
   }
 
   .last-logo {

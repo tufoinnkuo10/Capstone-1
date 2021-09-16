@@ -31,7 +31,7 @@ This CAPSTONE consist of the various sections
 - Bootstrap
 - VS code
 
-[Live Demo Link](https://tufoinnkuo10.github.io/Capstone-1/
+[Live Demo Link](https://tufoinnkuo10.github.io/Capstone-1/)
 
 
 #To get a local copy up and running , the following steps might be necessary
