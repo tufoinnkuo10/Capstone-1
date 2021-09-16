@@ -5,10 +5,10 @@ A SPORT CONFERENCE HELD IN PREPARATIONS FOR THE AFCON 2022, designed using https
 Designed a conference page (the home and the about section). in contains information about a conference held in preparation for the afcon 2022. It has both the desktop and mobile version and they  work well responsively. 
 Hope you will like what you see!
 
-![screenshot](./images/home1.png)
-![screenshot](./images/aboutpage.png)
-![screenshot](./images/mhome.png)
-![screenshot](./images/mabout.png)
+![screenshot](./images/homea.png)
+![screenshot](./images/homeb.png)
+![screenshot](./images/homec.png)
+![screenshot]()
 
 
 
