@@ -32,6 +32,10 @@
   padding-left: 120px;
 }
 
+.visa {
+  display: none;
+}
+
 .dsk-nav li a {
   color: #dd3737;
   font-size: 25px;
@@ -92,7 +96,7 @@
   border: 3px solid rgb(223, 222, 222);
   font-size: 0.9rem;
   padding: 15px;
-  max-width: 30rem;
+  max-width: 25rem;
   background-color: white;
   line-height: 1.5;
   text-align: center;
@@ -164,7 +168,7 @@
 
 .creation-img {
   height: 130px;
-  padding-left: 95px;
+  padding-left: 80px;
 }
 
 .the-past {
@@ -208,8 +212,6 @@
   align-items: center;
   justify-content: center;
   padding-left: 10px;
-
-  /* margin-left: 50pxs; */
 }
 
 .past-img1 {
@@ -246,7 +248,6 @@
 .partner-icons {
   display: flex;
   align-items: center;
-  margin-right: 45px;
   list-style: none;
   padding: 10px;
   color: rgb(161, 159, 159);
@@ -269,7 +270,7 @@
 }
 
 .bottom-icon {
-  background-color: rgb(94, 93, 93);
+  background-color: rgb(235, 232, 232);
   display: flex;
   flex-direction: row;
   align-items: center;

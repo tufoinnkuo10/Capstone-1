@@ -429,6 +429,8 @@
   .nav4 {
     color: #3e3e3e;
     font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
   }
 
   .nav1:hover {
@@ -472,11 +474,17 @@
   .heading {
     margin-right: 50px;
     margin-left: 150px;
-    padding-bottom: 50px;
+    padding-bottom: 25px;
+  }
+
+  .heading1 {
+    padding-top: 65px;
+    font-size: 2.3rem;
   }
 
   .heading2 {
-    font-size: 2.7rem;
+    font-size: 4rem;
+    max-width: 50rem;
   }
 
   .text1,
@@ -487,12 +495,13 @@
   }
 
   .text1 {
-    padding: 20px;
     border: 3px solid white;
+    max-width: 40rem;
   }
 
   .text2 {
     padding-top: 35px;
+    font-weight: 900;
   }
 
   .text3 {
