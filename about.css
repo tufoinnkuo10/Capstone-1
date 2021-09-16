@@ -121,6 +121,7 @@
   padding: 40px 40px;
   height: fit-content;
   width: fit-content;
+  width: -moz-fit-content;
   border-bottom: 2px solid rgb(134, 133, 133);
   background-color: rgb(253, 251, 251);
 }

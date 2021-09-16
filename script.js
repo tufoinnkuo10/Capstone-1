@@ -53,21 +53,7 @@ const speakers = [
   text: 'Magni consequuntur, vel ipsa possimus corporis accusamus magnam facere. Facere enim incidunt',
   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis perspiciatis !',
 },
-{
-  name: 'Ahmad ahmad',
-  image: './images/speakers/ahmad.jpg',
-  text: 'Magni consequuntur, vel ipsa possimus corporis accusamus magnam facere. Facere enim incidunt',
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis perspiciatis !',
-},
-{
-  name: 'Paul Biya',
-  image: './images/speakers/paul_biya.jpg',
-  text: 'Magni consequuntur, vel ipsa possimus corporis accusamus magnam facere. Facere enim incidunt',
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis perspiciatis !',
-},
 ];
-
-
 
 
 for (let i=0; i < speakers.length; i++) {
@@ -102,8 +88,5 @@ speakerText.innerText = 'Magni consequuntur, vel ipsa possimus corporis accusamu
 speakerInfo.append(speakerDesc);
 speakerDesc.classList.add('speaker-desc');
 speakerDesc.innerText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis perspiciatis ';
-
-
-
 }
 

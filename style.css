@@ -6,7 +6,8 @@
 
 .body {
   display: block;
-  width: 100%
+  font-family: Lato, sans-serif;
+  
 }
 
 .closeb {
@@ -66,6 +67,7 @@
 .introduction {
   background-image: url(./images/mainpic.png);
   height: fit-content;
+  height: -moz-fit-content;
   background-repeat: no-repeat;
   padding-left: 20px;
   padding-right: 20px;
@@ -73,7 +75,7 @@
 
 .heading {
   padding-bottom: 30px;
-}
+}s
 
 .heading1 {
   font-size: 1.3rem;
@@ -340,7 +342,13 @@
 .afcon {
   background-color: transparent;
 }
+.moreclass {
+  display: none;
+}
 
+.moreclass.active {
+  display: block;
+}
 
 
 
@@ -654,6 +662,10 @@
 
 
   .more-button {
+    display: none;
+  }
+
+  .moreclass {
     display: none;
   }
 
