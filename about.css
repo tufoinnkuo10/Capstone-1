@@ -105,8 +105,11 @@
 
 .text22,
 .text11 {
-  padding-left: 60px;
   padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .text2 {
@@ -119,7 +122,6 @@
   text-align: center;
   text-decoration: underline;
   padding-bottom: 15px;
-  padding-right: 90px;
 }
 
 .creation {
@@ -405,9 +407,14 @@
     color: cornsilk;
   }
 
+  .heading1 {
+    display: none;
+  }
+
   .heading2 {
     max-width: 30rem;
     font-size: 3rem;
+    padding-top: 45px;
   }
 
   .text1 {
@@ -422,7 +429,10 @@
   }
 
   .text11 {
-    padding-left: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
   }
 
   .text2 {
@@ -432,22 +442,28 @@
   .text22 {
     padding-top: 50px;
     padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .creation {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .creation-img {
-    height: 130px;
-    padding-left: 0;
+    height: 140px;
+    padding: 30px;
   }
 
   .creation-logo {
     border: double;
-    margin-left: 30%;
     max-width: 20rem;
-    padding-left: 95px;
   }
 
   .past-images {
