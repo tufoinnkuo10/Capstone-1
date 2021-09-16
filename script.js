@@ -53,6 +53,18 @@ const speakers = [
   text: 'Magni consequuntur, vel ipsa possimus corporis accusamus magnam facere. Facere enim incidunt',
   description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis perspiciatis !',
 },
+{
+  name: 'Ahmad ahmad',
+  image: './images/speakers/ahmad.jpg',
+  text: 'Magni consequuntur, vel ipsa possimus corporis accusamus magnam facere. Facere enim incidunt',
+  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis perspiciatis !',
+},
+{
+  name: 'Paul Biya',
+  image: './images/speakers/paul_biya.jpg',
+  text: 'Magni consequuntur, vel ipsa possimus corporis accusamus magnam facere. Facere enim incidunt',
+  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis perspiciatis !',
+},
 ];
 
 
@@ -79,11 +91,11 @@ speakerImgHolder.append(speakerImgContainer);
 speakerImgContainer.classList.add('speaker-image');
 speakerImgContainer.append(speakerImg);
 speakerImg.classList.add('speaker-image');
-speakerImg.src = './images/speakers/etoo3.jpg';
+speakerImg.src = speakers[i].image;
 speakerCard.append(speakerInfo);
 speakerInfo.classList.add('speaker-info');
 speakerInfo.append(speakerName);
-speakerName.innerText = speakers[0].name;
+speakerName.innerText = speakers[i].name;
 speakerInfo.append(speakerText);
 speakerText.classList.add('speaker-text');
 speakerText.innerText = 'Magni consequuntur, vel ipsa possimus corporis accusamus magnam facere. Facere enim incidunt';

@@ -552,6 +552,10 @@
     height: 275px;
   }
 
+  .main-program .card:hover {
+    border: 2px solid whitesmoke;
+  }
+
   .dsk-see-program {
     display: flex;
     justify-content: center;
