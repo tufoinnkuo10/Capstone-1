@@ -32,8 +32,10 @@ This CAPSTONE consist of the various sections
 - VS code
 
 ## Live Link
-
+Click the link below for preview
 [Live Demo Link](https://tufoinnkuo10.github.io/Capstone-1/
+
+
 #To get a local copy up and running , the following steps might be necessary
 - Open your terminal
 - get the clone link
