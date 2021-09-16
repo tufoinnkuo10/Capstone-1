@@ -1,20 +1,25 @@
-# Personal-Portfolio
-A Demo web page of  my self (Mobile/Desktop version)
+# CAPSTONE I
+A SPORT CONFERENCE HELD IN PREPARATIONS FOR THE AFCON 2022, designed using https://www.behance.net/gallery/29845175/CC-Global-Summit-2015 
 
-> Capstone
-Designed a personal Mobile and Desktop responsive webpage about myself with a template from Figma.
+> CAPSTONE1
+Designed a conference page (the home and the about section). in contains information about a conference held in preparation for the afcon 2022. It has both the desktop and mobile version and they  work well responsively. 
+Hope you will like what you see!
 
-![screenshot](./image/desktopv.pn)
-![screenshot](./image/mobilev.pn)
+![screenshot](./images/home1.png)
+![screenshot](./images/aboutpage.png)
+![screenshot](./images/mhome.png)
+![screenshot](./images/mabout.png)
 
 
-This milestone consist of the various sections
+
+This CAPSTONE consist of the various sections
 
 1 The toolbar section
 2 The headline section
-3 Templates of mobile  version and templates of desktop version
-4 Different background images serving thesame purpose
-5 contact form to get in touch
+3 The introduction section
+4 The main program section
+5 Different speakers and their information
+6 More information and tool bar to navigate the project
 
 
 
@@ -22,29 +27,33 @@ This milestone consist of the various sections
 
 - Html
 - Css
+- javascript
+- Bootstrap
 - VS code
 
-## Live Link
+[Live Demo Link](https://tufoinnkuo10.github.io/Capstone-1/)
 
-[Live Demo Link](https://tufoinnkuo10.github.io/Personal-Portolio/)
 
-##To get a local copy up and running follow these simple example steps
+#To get a local copy up and running , the following steps might be necessary
 - Open your terminal
+- get the clone link
 - Run git clone and paste the link above
+- chose a code editor
 - Open the folder on a code editor
-- Create a branch and work on
-- And finaly you can also demand for a pull request
+- Create a new branch and make the desired changes on it
+- And finally you can demand for a pull request if it is worth it.
 
 ### Prerequisites
 
 - Internet connection
 - github and git
-- 100mb of storage
+- 250mb of storage
+- working space
 
 
 ### Setup
 
-RUN git clone https://github.com/tufoinnkuo10/Personal-Portlio
+RUN git clone https://git@github.com:tufoinnkuo10/Capstone-1.git
 
 ### Install
 
@@ -78,7 +87,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--All thanks aswell this project belongs to Microverse.
+- Thanks to the Microverse team.
+- Thanks to the amazing @Cindy shin design
 
 ## 📝 License
 
