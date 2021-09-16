@@ -33,8 +33,7 @@ This CAPSTONE consist of the various sections
 
 ## Live Link
 
-[Live Demo Link](https://tufoinnkuo10.github.io/Personal-Portolio/)
-
+[Live Demo Link](https://tufoinnkuo10.github.io/Capstone-1/
 #To get a local copy up and running , the following steps might be necessary
 - Open your terminal
 - get the clone link

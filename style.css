@@ -1,16 +1,12 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
 }
 
 .body {
   display: block;
   font-family: Lato, sans-serif;
-  
-}
-
-.closeb {
 }
 
 .sidebar {
@@ -18,11 +14,10 @@
   width: 200px;
   background: rgb(14, 12, 12);
   transform: translate(-200px);
-  transition: .4s;
+  transition: 0.4s;
   height: 100vh;
   top: 0;
   background-image: url(./images/mainpic2.png);
-  
 }
 
 .sidebar ul li {
@@ -39,14 +34,11 @@
   font-weight: bold;
 }
 
-
-
 .fas {
   color: #545b6a;
   padding-top: 20px;
   padding-bottom: 40px;
 }
-
 
 .dsk-nav li a {
   color: #dd3737;
@@ -59,15 +51,12 @@
   font-size: 40px;
 }
 
-
 .sidebar.showww {
   transform: translate(0);
 }
 
 .introduction {
   background-image: url(./images/mainpic.png);
-  height: fit-content;
-  height: -moz-fit-content;
   background-repeat: no-repeat;
   padding-left: 20px;
   padding-right: 20px;
@@ -75,9 +64,9 @@
 
 .heading {
   padding-bottom: 30px;
-}s
+}
 
-.heading1 {
+s .heading1 {
   font-size: 1.3rem;
   font-family: 'lato', sans-serif;
   color: #ec5242;
@@ -107,7 +96,7 @@
 }
 
 .text3 {
-  font-size: 1.rem;
+  font-size: 1rem;
   padding-top: 7px;
   padding-bottom: 30px;
 }
@@ -130,7 +119,6 @@
   background-color: #ec5242;
 }
 
-
 .main-program {
   background-image: url(./images/mainpic2.png);
   background-color: rgb(26, 25, 25);
@@ -140,7 +128,6 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
 
 .card-box {
@@ -150,16 +137,15 @@
   align-items: center;
   width: 100%;
   gap: 1rem;
-  padding-top: 30px; 
+  padding-top: 30px;
   margin-left: 14px;
   max-width: 93%;
   justify-content: center;
 }
 
 .card-heading {
-  line-height: px;
   font-size: 1.3rem;
-  color:#ef513c;
+  color: #ef513c;
   font-weight: bold;
 }
 
@@ -177,7 +163,6 @@
   float: left;
   text-align: left;
   justify-content: flex-start;
-  
 }
 
 .card {
@@ -231,8 +216,8 @@
 .f-speakers {
   margin-top: 50px;
   font-weight: bolder;
-
 }
+
 .speaker-card {
   display: flex;
   align-items: center;
@@ -255,14 +240,9 @@
   padding-left: 5px;
   border-radius: 1rem;
   padding-top: 2px;
-
 }
 
-.speaker-info{}
-
-.speaker-text {}
-
-.speaker-text::after{
+.speaker-text::after {
   bottom: 0;
   content: "";
   display: block;
@@ -271,7 +251,7 @@
   border-radius: 0.05em;
   margin: 0 auto;
   margin-top: 0.6em;
-  background-color: #504d4d; 
+  background-color: #504d4d;
 }
 
 .speaker-desc {
@@ -294,14 +274,12 @@
 .more-button .cmore-icon {
   color: #c90808;
   width: 3rem;
-
 }
 
 .more-button .cmore {
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-  
 }
 
 .speaker-text {
@@ -317,10 +295,6 @@
   justify-content: space-between;
   flex-direction: row;
   background-color: rgba(229, 226, 226, 0.904);
-}
-
-.bottom-icon .left {
-  font-weight: rem;
 }
 
 .bottom-icon .left {
@@ -342,6 +316,7 @@
 .afcon {
   background-color: transparent;
 }
+
 .moreclass {
   display: none;
 }
@@ -349,9 +324,6 @@
 .moreclass.active {
   display: block;
 }
-
-
-
 
 @media screen and (max-width: 768px) {
   .dsk-see-program {
@@ -365,6 +337,7 @@
   .last-logo {
     display: none;
   }
+
   .desktop-nav {
     display: none;
   }
@@ -372,24 +345,17 @@
   .online-icons {
     display: none;
   }
+
   .partner {
     display: none;
   }
-
-  
-
-
-
-
-
-
 }
-
 
 @media screen and (min-width: 768px) {
   .fas {
     display: none;
   }
+
   .sidebar {
     display: none;
   }
@@ -397,6 +363,7 @@
   .attend-btn {
     display: none;
   }
+
   .desktop-header {
     display: flex;
     flex-direction: row;
@@ -413,7 +380,6 @@
     list-style: none;
     display: flex;
     align-items: center;
-    justify-ntent: flex-end;
     color: white;
   }
 
@@ -424,17 +390,17 @@
 
   .online-icons .fb {
     padding-right: 15px;
-
   }
+
   .online-icons .tw {
     padding-right: 15px;
-
   }
+
   .online-icons .en {
     padding-right: 50px;
   }
 
-  .desktop-nav{
+  .desktop-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -442,11 +408,6 @@
     height: 80px;
     margin-left: 45px;
     margin-right: 45px;
-  }
-
-  .first-logo {
-    display: fle;
-
   }
 
   .dsk-nav-items {
@@ -458,15 +419,27 @@
     cursor: pointer;
   }
 
+  .nav1 {
+    color: #ec5242;
+    font-weight: bold;
+  }
+
+  .nav2,
+  .nav3,
+  .nav4 {
+    color: #3e3e3e;
+    font-weight: bold;
+  }
+
   .nav1:hover {
     background-color: rgb(230, 205, 205);
     cursor: pointer;
   }
+
   .nav2:hover {
     background-color: rgb(230, 205, 205);
     cursor: pointer;
-
-  } 
+  }
 
   .nav3:hover {
     background-color: rgb(230, 205, 205);
@@ -478,14 +451,11 @@
     cursor: pointer;
   }
 
-  
   .last-logo {
     border: 0.3em solid #ec5242;
-    font-weight: 200px;
     font-size: 0.8rem;
     color: #ec5242;
     padding: 0.8em 0.8em;
-
   }
 
   .last-logo:hover {
@@ -503,22 +473,10 @@
     margin-right: 50px;
     margin-left: 150px;
     padding-bottom: 50px;
-
   }
 
   .heading2 {
     font-size: 2.7rem;
-  }
-
-  .nav1 {
-    color: #ec5242;
-    font-weight: bold;
-  }
-  .nav2,
-  .nav3,
-  .nav4 {
-    color: #3e3e3e;
-    font-weight: bold;
   }
 
   .text1,
@@ -573,14 +531,6 @@
     padding-bottom: 40px;
   }
 
-  .speaker-card{
-    width: 50%;
-  }
-
-  .speakers-container {
-    width: max-content;
-  }
-
   .all-speakers {
     display: grid;
     grid-template-columns: 2fr 2fr;
@@ -610,7 +560,6 @@
     background-color: rgb(46, 44, 44);
     color: rgb(247, 239, 239);
     padding: 20px;
-    
   }
 
   .partner-icons {
@@ -631,9 +580,6 @@
     padding-left: 24px;
     font-size: 35px;
     font-family: fantasy;
-
-    
-
   }
 
   .visa,
@@ -641,25 +587,20 @@
     padding-left: 18px;
     font-size: 40px;
     font-family: monospace;
-
   }
 
   .bottom-icon {
     background-color: rgb(94, 93, 93);
-
   }
 
   .bottom-icon .left {
     padding-left: 50px;
     font-weight: bold;
-
   }
 
   .bottom-icon .right-icon {
     padding-right: 55px;
-
   }
-
 
   .more-button {
     display: none;
@@ -668,13 +609,4 @@
   .moreclass {
     display: none;
   }
-
-  
-
-
-
-
-
-
-
 }

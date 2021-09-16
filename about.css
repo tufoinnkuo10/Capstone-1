@@ -1,7 +1,11 @@
 * {
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
+}
+
+.body {
+  font-family: Lato, sans-serif;
 }
 
 .sidebar {
@@ -9,7 +13,7 @@
   width: 200px;
   background: rgb(14, 12, 12);
   transform: translate(-200px);
-  transition: .4s;
+  transition: 0.4s;
   height: 100vh;
   top: 0;
   background-image: url(./images/mainpic2.png);
@@ -34,7 +38,6 @@
   text-decoration: none;
 }
 
-
 .sidebar .burger {
   position: absolute;
   left: 250px;
@@ -51,15 +54,12 @@
   font-size: 40px;
 }
 
-
 .sidebar.showww {
   transform: translate(0);
 }
 
 .introduction {
-  
   background-image: url(./images/mainpic.png);
-  height: fit-content;
   background-repeat: no-repeat;
   padding-left: 20px;
   padding-right: 20px;
@@ -98,6 +98,7 @@
   text-align: center;
   color: #6f6f72;
 }
+
 .text22,
 .text11 {
   padding-left: 60px;
@@ -109,22 +110,22 @@
   color: #6f6f72;
   max-width: 30rem;
 }
+
 .text3 {
   text-align: center;
   text-decoration: underline;
   padding-bottom: 15px;
   padding-right: 90px;
-  
 }
 
 .creation {
   padding: 40px 40px;
-  height: fit-content;
   width: fit-content;
   width: -moz-fit-content;
   border-bottom: 2px solid rgb(134, 133, 133);
   background-color: rgb(253, 251, 251);
 }
+
 .cc-text1 {
   text-align: center;
   max-width: 90%;
@@ -145,6 +146,7 @@
   margin-top: 0.6em;
   background-color: #ec5242;
 }
+
 .cc-text2 {
   max-width: 90%;
   padding-left: 50px;
@@ -153,6 +155,7 @@
   padding-bottom: 30px;
   font-size: 20px;
 }
+
 .creation-logo {
   border: 1.5px solid #b0b0b3;
   padding: 5px;
@@ -167,8 +170,8 @@
 .the-past {
   background-color: whitesmoke;
   max-width: 145rem;
-
 }
+
 .past1 {
   padding-top: 35px;
   align-items: center;
@@ -177,10 +180,9 @@
   font-size: 25px;
   padding-bottom: 20px;
   text-align: center;
-
 }
 
-.past1::after{
+.past1::after {
   bottom: 0;
   content: "";
   display: block;
@@ -191,6 +193,7 @@
   margin-top: 0.6em;
   background-color: #ec5242;
 }
+
 .past2 {
   max-width: 90%;
   padding-left: 50px;
@@ -204,21 +207,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 30px 80px;
   padding-left: 10px;
-  margin-left: 50pxs;
+
+  /* margin-left: 50pxs; */
 }
+
 .past-img1 {
   margin: 10px;
-  
-
 }
 
 .past-img2 {
   padding-bottom: 20px;
   min-width: 5px;
 }
-
 
 .partner-text::after {
   bottom: 0;
@@ -240,7 +241,6 @@
   background-color: rgb(46, 44, 44);
   color: rgb(247, 239, 239);
   padding: 20px;
-  
 }
 
 .partner-icons {
@@ -259,9 +259,6 @@
   padding-left: 24px;
   font-size: 35px;
   font-family: fantasy;
-
-  
-
 }
 
 .visa,
@@ -269,7 +266,6 @@
   padding-left: 18px;
   font-size: 40px;
   font-family: monospace;
-
 }
 
 .bottom-icon {
@@ -280,22 +276,11 @@
   justify-content: center;
   padding-bottom: 10px;
   padding-top: 10px;
-
 }
 
 .bottom-icon .left {
   padding-left: 50px;
   font-weight: bold;
- 
-}
-
-.bottom-icon .right-icon {
-  padding-right: 55px;
-
-}
-.afcon {
-  height: 60px;
-  width: px;
 }
 
 .right-icon {
@@ -304,26 +289,26 @@
   justify-content: flex-end;
 }
 
+.bottom-icon .right-icon {
+  padding-right: 55px;
+}
 
-
-
-
+.afcon {
+  height: 60px;
+}
 
 @media screen and (max-width: 768px) {
   .desktop-nav,
   .desktop-header {
     display: none;
   }
-
-
-
-
 }
 
 @media screen and (min-width: 768px) {
   .partner {
     display: none;
   }
+
   .fas {
     display: none;
   }
@@ -344,7 +329,6 @@
     list-style: none;
     display: flex;
     align-items: center;
-    justify-ntent: flex-end;
     color: white;
   }
 
@@ -355,17 +339,17 @@
 
   .online-icons .fb {
     padding-right: 15px;
-
   }
+
   .online-icons .tw {
     padding-right: 15px;
-
   }
+
   .online-icons .en {
     padding-right: 50px;
   }
 
-  .desktop-nav{
+  .desktop-nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -373,11 +357,6 @@
     height: 80px;
     margin-left: 45px;
     margin-right: 45px;
-  }
-
-  .first-logo {
-    display: fle;
-
   }
 
   .dsk-nav-items {
@@ -397,11 +376,11 @@
     background-color: rgb(230, 205, 205);
     cursor: pointer;
   }
+
   .nav2:hover {
     background-color: rgb(230, 205, 205);
     cursor: pointer;
-
-  } 
+  }
 
   .nav3:hover {
     background-color: rgb(230, 205, 205);
@@ -413,14 +392,11 @@
     cursor: pointer;
   }
 
-  
   .last-logo {
     border: 0.3em solid #ec5242;
-    font-weight: 200px;
     font-size: 0.8rem;
     color: #ec5242;
     padding: 0.8em 0.8em;
-
   }
 
   .last-logo:hover {
@@ -446,7 +422,6 @@
 
   .text11 {
     padding-left: 180px;
-
   }
 
   .text2 {
@@ -464,7 +439,7 @@
 
   .creation-img {
     height: 130px;
-    padding-left: 0px;
+    padding-left: 0;
   }
 
   .creation-logo {
@@ -472,7 +447,6 @@
     margin-left: 30%;
     max-width: 20rem;
     padding-left: 95px;
-
   }
 
   .past-images {
@@ -484,18 +458,11 @@
   }
 
   .past-img2 {
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 
   .bottom-icon {
     padding: 55px;
     background-color: rgb(77, 73, 73);
   }
-  
-
-
-
-
-
-
 }
